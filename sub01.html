@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web</title>
+    <link href="master.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+    <section>
+        <div class="wrap">
+            <div class="sbox01">
+                
+                <ul class="menubar">
+                    <li class="logo"><a href="index.html"><img src="img/logo2.png" alt="rogo"></a></li>
+                    <li class="menu text-menu"><a href="sub01.html">Web</a></li>
+                    <li class="menu text-menu"><a href="sub02.html">Ui/ux</a></li>
+                    <li class="menu text-menu"><a href="sub03.html">Package</a></li>
+                    <li class="menu text-menu"><a href="sub04.html">Editorial</a></li>
+                    <li class="menu text-menu"><a href="sub05.html">logo</a></li>
+                </ul> 
+
+                <ul class="tity1"><img src="img/tity01.png"></ul>
+                <ul class="tity3"><img src="img/tity03.png"></ul>
+            </div>
+
+            <style>
+                * {margin:0;padding:0;border:0;}
+                
+                .tab_content {text-align:center;font-size:0;border: 0px solid red; background-image: url('img/subg02.png'); width: 100%;}
+                input[type="radio"] {display:none}
+                
+                input[type="radio"] + label {display:inline-block;padding:20px;color:#ffffff;font-size:14px;cursor:pointer;width: 291px; height: 355px; margin-top: 185px; margin-bottom: 300px;} 
+
+                input[type="radio"]:checked + label { filter: drop-shadow(0px 0px 9px #3873F4);} 
+                  
+                .conbox {width:1100px; height:4100px; margin:0 auto;display:none;text-align:left;box-sizing:border-box; border: 0px solid red;}
+ 
+                input[id="tab01"]:checked ~ .con1 {display:block;}
+                input[id="tab02"]:checked ~ .con2 {display:block;}
+
+                .tity1 {
+                     animation-name: tity;
+                     animation-duration: 1.5s;
+                     animation-iteration-count: 2;
+                     animation-direction: alternate;
+                     /*animation-timing-function: linear;*/
+                     }
+
+            @keyframes tity {
+                from {
+                 margin-right: 0px; 
+                }
+                 to {
+                     margin-right: 100px;
+                }
+                     }
+
+                 .tity3 {
+                 animation-name: tity3;
+                 animation-duration: 1.5s;
+                 animation-iteration-count: 2;
+                 animation-direction: alternate;
+                 }
+
+            @keyframes tity3 {
+                from {
+                 margin-left: 200px; 
+                }
+                 to {
+                     margin-left: 300px;
+                }
+                     }
+                </style> 
+
+                 
+                    <div class="tab_content">
+                
+                        <input type="radio" name="tabmenu" id="tab01" checked>
+                        <label for="tab01"> 
+                            <div class="gg01">
+                                <img src="img/tity04.png">
+                            </div>
+                        </label>
+
+                        <input type="radio" name="tabmenu" id="tab02">
+                        <label for="tab02">
+                            <div class="gg01">
+                                <img src="img/tity05.png">
+                            </div>
+                        </label>
+
+                    
+                    
+
+
+                       <div class="conbox con1" data-aos="fade-right"
+                       data-aos-offset="300"
+                       data-aos-easing="ease-in-sine" 
+                       data-aos-duration="1500" >
+                            <div class="gg1">
+                                <img src="img/tity06.png">
+                            </div>
+                            <a href="https://xodrnwjddns.github.io/201909022/"><div class="gg_1"><img src="img/tity_06.png"></div></a>
+                            <div class="gg2">
+                                <div class="ggg1">
+                                    <img src="img/tity08.png" >
+                                </div>
+                                <div class="ggg2">
+                                    <img src="img/tity09.png">
+                                </div>
+                                <div class="ggg3">
+                                    <img src="img/tity10.png">
+                                </div>
+                                <div class="ggg4">
+                                    <img src="img/tity11.png">
+                                </div>
+                            </div>
+                            <div class="ggg5">
+                                <img src="img/tity12.png" >
+                            </div>
+                            <div class="ggg6">
+                                <img src="img/tity13.png">
+                            </div>
+                       </div>
+
+                       
+                       <div class="conbox con2"> 
+                        <div class="ggg_1">
+                            <img src="img/tityy06.png">
+                        </div>
+                        <a href="https://xodrnwjddns.github.io/201909022/"><div class="gg_2"><img src="img/tity_07.png"></div></a>
+                        <div class="gg2">
+                            <div class="ggg1"> 
+                                <img src="img/tityy08.png">
+                            </div>
+                            <div class="ggg2">
+                                <img src="img/tityy09.png">
+                            </div>
+                            <div class="ggg3">
+                                <img src="img/tityy10.png">
+                            </div> 
+                            <div class="ggg4">
+                                <img src="img/tityy11.png">
+                            </div>
+                        </div>
+                        <div class="ggg5">
+                            <img src="img/tityy12.png">
+                        </div>
+                        <div class="ggg6">
+                            <img src="img/tityy13.png">
+                        </div>
+
+                       </div>
+
+                    </div>
+                
+            </div>    
+
+    </section>
+
+    <footer>
+        <div class="footer_img">
+            <div class="logo_position">
+                <a href="index.html"><img src="img/logo_1.png"></a>
+            </div>
+            <div class="logo_position2"><img src="img/ft01.png"></div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+
+
+    <a href="" class="go_top">
+        <img src="img/go_top.png"> 
+    </a>
+
+    
+
+</body>
+</html> 

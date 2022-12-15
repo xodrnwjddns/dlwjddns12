@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ui/ux</title>
+    <link href="master.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <section>
+        <div class="wrap">
+            <div class="sbox04">
+
+                <ul class="menubar">
+                    <li class="logo"><a href="index.html"><img src="img/logo2.png" alt="rogo"></a></li>
+                    <li class="menu text-menu"><a href="sub01.html">Web</a></li>
+                    <li class="menu text-menu"><a href="sub02.html">Ui/ux</a></li>
+                    <li class="menu text-menu"><a href="sub03.html">Package</a></li>
+                    <li class="menu text-menu"><a href="sub04.html">Editorial</a></li>
+                    <li class="menu text-menu"><a href="sub05.html">logo</a></li>
+                </ul> 
+                
+                <ul class="titw1"><img src="img/titw01.png"></ul>
+                <ul class="titw3"><img src="img/titw03.png"></ul>
+            </div>
+
+            <style>
+                * {margin:0;padding:0;border:0;}
+                
+                .tab_content {text-align:center;font-size:0;border: 0px solid red; background-image: url('img/subg04.png');}
+                input[type="radio"] {display:none;} 
+                
+                input[type="radio"] + label {display:inline-block;padding:20px;color:#ffffff;font-size:14px;cursor:pointer;width: 291px; height: 355px; margin-top: 185px; margin-bottom: 300px;} 
+
+                input[type="radio"]:checked + label {filter: drop-shadow(0px 0px 9px #3873F4);} 
+                
+                .conbox {width:1100px; height:4550px; margin:0 auto;display:none;text-align:left;box-sizing:border-box;  border: 0px solid red;}
+
+                input[id="tab01"]:checked ~ .con1 {display:block;}
+                input[id="tab02"]:checked ~ .con2 {display:block;}
+                input[id="tab03"]:checked ~ .con3 {display:block;}
+
+                .titw1 {
+                     animation-name: titw1;
+                     animation-duration: 1.5s;
+                     animation-iteration-count: 2;
+                     animation-direction: alternate;
+                     /*animation-timing-function: linear;*/
+                     }
+
+            @keyframes titw1 {
+                from {
+                 margin-right: 0px; 
+                }
+                 to {
+                     margin-right: 100px;
+                }
+                     }
+
+                 .titw3 {
+                 animation-name: titw3;
+                 animation-duration: 1.5s;
+                 animation-iteration-count: 2;
+                 animation-direction: alternate;
+                 }
+
+            @keyframes titw3 {
+                from {
+                 margin-left: 0px; 
+                }
+                 to {
+                     margin-left: 100px;
+                }
+                     }
+
+                </style>
+
+                
+                    <div class="tab_content">
+                
+                        <input type="radio" name="tabmenu" id="tab01" checked>
+                        <label for="tab01">
+                            <div class="gg01">
+                                <img src="img/titw04.png">
+                            </div>
+                        </label>
+
+                        <input type="radio" name="tabmenu" id="tab02">
+                        <label for="tab02">
+                            <div class="gg01">
+                                <img src="img/titw05.png">
+                            </div>
+                        </label>
+
+
+                        <input type="radio" name="tabmenu" id="tab03">
+                        <label for="tab03">
+                            <div class="gg01">
+                                <img src="img/titw06.png">
+                            </div>
+                        </label>
+
+
+                    
+
+
+                       <div class="conbox con1" data-aos="fade-right"data-aos-duration="1500">
+                            <div class="pw1">
+                                <img src="img/titw07.png">
+                            </div>
+
+                            <div class="pw2">
+                                <div class="ppw1">
+                                    <img src="img/titw08.png">
+                                </div>
+                                <div class="ppw2">
+                                    <img src="img/titw09.png">
+                                </div>
+                            </div>
+
+                            <div class="ppw3">
+                                <img src="img/titw10.png">
+                            </div>
+                            <div class="ppw4">
+                                <img src="img/titw11.png">
+                            </div>
+
+                            <div class="ppw5">
+                                <img src="img/titw12.png">
+                            </div>
+                            <div class="ppw6">
+                                <img src="img/titw13.png">
+                            </div>
+
+                       </div>
+                      
+                        
+                       <div class="conbox con2">
+                        <div class="pw1">
+                            <img src="img/titww07.png">
+                        </div>
+
+                        <div class="pw2">
+                            <div class="ppw1">
+                                <img src="img/titww08.png">
+                            </div>
+                            <div class="ppw2">
+                                <img src="img/titww09.png">
+                            </div>
+                        </div>
+
+                        <div class="ppw3">
+                            <img src="img/titww10.png">
+                        </div>
+                        <div class="ppw4">
+                            <img src="img/titww11.png">
+                        </div>
+
+                        <div class="ppw5">
+                            <img src="img/titww12.png">
+                        </div>
+                        <div class="ppw6">
+                            <img src="img/titww13.png">
+                        </div>
+
+                       </div>
+
+
+                       <div class="conbox con3">
+                        <div class="pw1">
+                            <img src="img/titwww7.png">
+                        </div>
+
+                        <div class="pw2">
+                            <div class="ppw1">
+                                <img src="img/titwww08.png">
+                            </div>
+                            <div class="ppw2">
+                                <img src="img/titwww09.png">
+                            </div>
+                        </div>
+
+                        <div class="ppw3">
+                            <img src="img/titwww10.png">
+                        </div>
+                        <div class="ppw4">
+                            <img src="img/titwww11.png">
+                        </div>
+ 
+                        <div class="ppw5">
+                            <img src="img/titwww12.png">
+                        </div>
+                        <div class="ppw6">
+                            <img src="img/titwww13.png">
+                        </div>
+
+                    </div>
+
+                    </div> 
+                 
+            </div>     
+            
+        
+    </section> 
+
+    <footer>
+        <div class="footer_img">
+            <div class="logo_position">
+                <a href="index.html"><img src="img/logo_1.png"></a>
+            </div>
+            <div class="logo_position2"><img src="img/ft01.png"></div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+
+    
+    <a href="" class="go_top">
+        <img src="img/go_top.png">
+    </a>
+
+</body>
+</html> 
